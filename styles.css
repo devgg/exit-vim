@@ -1,0 +1,53 @@
+body {
+  font-family: "Jost", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+kbd {
+  display: inline-block;
+  margin: 0 0.1em;
+  padding: 0.1em 0.6em;
+  font-family: "system-ui", "Segoe UI", "Liberation Sans", sans-serif;
+  text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+  background-color: rgb(227, 230, 232);
+  border: 1px solid rgb(159, 166, 173);
+  border-radius: 3px;
+  box-shadow: 0 1px 1px hsl(210deg 8% 5% / 15%),
+    inset 0 1px 0 0 hsl(0deg 0% 100%);
+  overflow-wrap: break-word;
+}
+
+.padding {
+  margin-left: 7px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8em;
+  margin-bottom: 20px;
+}
+
+a {
+  padding-left: 6px;
+}
